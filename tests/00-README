@@ -1,0 +1,9 @@
+# Last edited on 2021-10-18 05:18:35 by stolfi
+
+Folder for unit test programs.
+
+Sub-folders:
+
+  out -- where the test programs write their output.
+  in  -- input data files for the tests.
+  

@@ -1,0 +1,31 @@
+# Last edited on 2021-10-18 05:35:03 by stolfi
+
+Version by JS started 2021-10-03 
+
+Main changes:
+
+  Lots or function renames, parameter changes.
+  
+  Global delta replaced by a {tcool_limit} attribute of each contact.
+
+  Totally revamped cool time estimations.
+
+  Implemented path-contact attachments to speed up coverage time functions.
+
+  Implemented path-links attachments to speed up link finding when concatenating paths.
+
+  The function {path.concat} copies the appropriate links.
+  
+  New modules to generate the figures for the paper.
+
+To generate the figures of the paper:
+
+  (1) Run the script {force_font_gen.sh} once, to force the creation of 
+      some needed LaTeX font files.
+
+  (2) execute {run_python_test.sh paper_figures_B}.  This will write
+      the figures to tests/out, in ".png", ".jpg", and ".eps" format.
+
+  (3) execute {save_paper_figures.sh}. This will copy
+      the ".png" files above to the directory {figures/{date}} 
+      and rename them as used in the paper.
