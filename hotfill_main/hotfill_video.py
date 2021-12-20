@@ -93,13 +93,14 @@ def plot_fp(OPHS, ph, CTS, tag, outfolder):
   OSKS, JMPS = path.split_at_jumps(ph)
   CLRS = hacks.trace_colors(len(JMPS) + 1, None)
 
-  OMVS_ph = ph.OMVS
-  OMVS = [ move.unpack(omv)[0] for omv in OMVS_ph]
+  OMVS = ph.OMVS
+  OMVS_ph = [ move.unpack(omv)[0] for omv in OMVS]
 
   rwd = style['rwd_fill']
 
   for imv in range(len(OMVS) + 1):
     omv = OMVS[0:imv]
+    omv_ph = OMVS_ph[0:imv]
 
     fname = "%s/%s_%03d" % (outfolder, tag, index_image)
     dp = (0, 0)
@@ -111,7 +112,7 @@ def plot_fp(OPHS, ph, CTS, tag, outfolder):
     plot_OPHS(c, dp, rwd, OPHS)
 
     if len(omv) > 0:
-      plot_contacts(c, dp, style, color, CTS, omv)
+      plot_contacts(c, dp, style, color, CTS, omv_ph)
       plot_lines(c, dp, rwd, style, color, CLRS, omv)
     
     hacks.write_plot(c, fname, 3)
@@ -176,7 +177,7 @@ def main(Delta, maxband):
 
 # --------------------------------------------------------------- #
 
-#main(Delta=1.7, maxband=5)
+main(Delta=1.7, maxband=5)
 #main(Delta=2.3, maxband=5)
 #main(Delta=3.5, maxband=5)
-main(Delta=50, maxband=50)
+#main(Delta=50, maxband=50)
