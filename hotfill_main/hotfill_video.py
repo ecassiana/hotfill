@@ -9,6 +9,7 @@ import main_plots
 import hacks
 import move
 import pyx
+import matplotlib.pyplot as plt
 
 # --------------------------------------------------------------- #
 
@@ -64,6 +65,37 @@ def plot_contacts(c, dp, style, color, CTS, OMVS):
 
 # --------------------------------------------------------------- #
 
+def plot_contacts_time(c, style, CTS, OMVS, ph):
+  wd_ctac = style['wd_ctac']
+  cts = get_open_contacts(CTS, OMVS)
+  radius = 0.35
+
+  clr_tot  = pyx.color.rgb(0.000, 0.000, 1.000)
+  clr_cool = pyx.color.rgb(1.000, 0.250, 0.000)
+
+  for ct in cts:
+    x = (ct.pts[0][0] + ct.pts[1][0])/2
+    y = ct.pts[0][1] + (wd_ctac + 1.1*radius)   
+
+    circle_ph = pyx.path.circle(x, y, radius)
+    c.stroke(circle_ph, [pyx.style.linewidth.Thick, clr_cool, pyx.deco.filled([clr_cool])])
+
+    t_limit = contact.tcool_limit(ct)
+    t_fin = ph.cumtex[len(OMVS)]
+    t_cool0, t_cool1 = contact.path_tcovs(ph, ct)
+
+    t_cool_min = min(t_cool0, t_cool1)
+
+    t_cool = t_fin-t_cool_min
+    t_cool = t_cool/t_limit
+
+    sector_ph = pyx.path.path(pyx.path.moveto(x, y), pyx.path.arc(x, y, radius, 90, 90-(360*t_cool)), pyx.path.closepath())
+    c.stroke(sector_ph, [pyx.style.linewidth.Thick, clr_tot, pyx.deco.filled([clr_tot])])
+
+  return
+
+# --------------------------------------------------------------- #
+
 def plot_lines(c, dp, rwd, style, color, CLRS, OMVS):
   rwd = style['rwd_fill']
   index_clr = 0
@@ -97,16 +129,16 @@ def plot_fp(OPHS, ph, CTS, tag, outfolder):
   OMVS_ph = [ move.unpack(omv)[0] for omv in OMVS]
 
   rwd = style['rwd_fill']
+  Bfig, cuxlo, cuxhi = main_plots.get_figure_bbox(OPHS, style)
+  autoscale = True
+  dp = (0, 0)
 
   for imv in range(len(OMVS) + 1):
     omv = OMVS[0:imv]
     omv_ph = OMVS_ph[0:imv]
 
     fname = "%s/%s_%03d" % (outfolder, tag, index_image)
-    dp = (0, 0)
-    
-    Bfig, cuxlo, cuxhi = main_plots.get_figure_bbox(OPHS, style)
-    autoscale = True
+  
     c = main_plots.make_figure_canvas(Bfig, autoscale, style, color)
     
     plot_OPHS(c, dp, rwd, OPHS)
@@ -114,9 +146,12 @@ def plot_fp(OPHS, ph, CTS, tag, outfolder):
     if len(omv) > 0:
       plot_contacts(c, dp, style, color, CTS, omv_ph)
       plot_lines(c, dp, rwd, style, color, CLRS, omv)
+      plot_contacts_time(c, style, CTS, omv_ph, ph)
     
     hacks.write_plot(c, fname, 3)
     index_image = index_image + 1
+
+  #plot_heat_map(OMVS, CTS, ph, tag, outfolder, Bfig, autoscale, style, color, dp, rwd, CLRS)
 
   return
 
@@ -142,10 +177,13 @@ def do_test_build(OPHS, tag, Delta, maxband, outfolder):
   if fph != None:
     plot_fp(OPHS, fph, CTS, tag, outfolder)
     alg = 'hotfill'
+
     CTScold = contact.coldest(fph, CTS, 1)
+
     main_plots.plot_plots(fph, OPHS, BPHS, CTScold, tag, alg, outfolder)
     os.remove(outfolder + "/" + alg + "_" + tag + "_printer_parms.tex")
     os.remove(outfolder + "/" + alg + "_" + tag + "_times.tex")
+  
   return
 
 # --------------------------------------------------------------- #
@@ -177,7 +215,7 @@ def main(Delta, maxband):
 
 # --------------------------------------------------------------- #
 
-main(Delta=1.7, maxband=5)
+#main(Delta=1.7, maxband=5)
 #main(Delta=2.3, maxband=5)
 #main(Delta=3.5, maxband=5)
-#main(Delta=50, maxband=50)
+main(Delta=50, maxband=50)
