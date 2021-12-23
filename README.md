@@ -8,6 +8,27 @@ For illustration purposes, we show below four examples of outputs for HotFill wi
 
 # Video
 
+# Installation (Linux)
+
+01) chmod u+x *.sh
+02) conda create -n hotfillenv
+03) source activate hotfillenv
+04) conda install pillow
+05) conda install pandas
+06) conda install -c bioconda wkhtmltopdf
+07) pip install shapely
+08) pip install pdfkit
+09) pip install PyX==0.15
+10) sudo apt-get install texlive-fonts-extra
+11) sudo apt-get install -y texlive-latex-extra
+12) sudo apt install ghostscript
+
+# Running
+01) ./run.sh
+This script will run a batch of tests using distinct cooling tines and bandpath sizes.
+For each test it will save in a folder tests/out the imagens and information about
+the fabrication time, air time, largest cooling contact, etc.
+
 # Citation
 
 If you want more information about the algorithm or find this work useful for your research, please read and cite our paper:
