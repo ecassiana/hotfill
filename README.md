@@ -23,6 +23,12 @@ For illustration purposes, we show below four examples of outputs for HotFill wi
 11) sudo apt-get install -y texlive-latex-extra
 12) sudo apt install ghostscript
 
+# Installation (Windows 10)
+You can use the Linux environment on Windows 10 to run the Hotfill script tests. 
+01) Install [Ubuntu on Windows 10](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview)
+02) Install [Anaconda on Windows Ubuntu Terminal](https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da)
+03) Follow [Installation (Linux)](https://github.com/ecassiana/hotfill#installation-linux) steps.
+
 # Running
 01) ./run.sh
 This script will run a batch of tests using distinct cooling tines and bandpath sizes.
