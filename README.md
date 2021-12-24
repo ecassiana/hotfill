@@ -30,8 +30,13 @@ You can use the Linux environment on Windows 10 to run the Hotfill tests.
 03) Follow [Installation (Linux)](https://github.com/ecassiana/hotfill#installation-linux) steps.
 
 # Running
-01) ./run.sh
-This script will run a batch of tests using distinct cooling tines and bandpath sizes.
+01) **./run.sh**
+This script will run a batch of tests using distinct cooling times and bandpath sizes.
+For each test it will save in a folder tests/out the imagens and information about
+the fabrication time, air time, largest cooling contact, etc.
+
+02) **./run_fast.sh**
+This script will run a batch of tests using **three** distinct cooling times and **one** bandpath size.
 For each test it will save in a folder tests/out the imagens and information about
 the fabrication time, air time, largest cooling contact, etc.
 
