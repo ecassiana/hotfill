@@ -21,7 +21,7 @@ folder_out = './tests/results/'
 
 # --------------------------------------------------------------- #
 
-tex_files = bool(sys.argv[1])
+tex_files = False
 
 data_parts = summary_results_read.read(folder_in, folder_out, deltas_aux)
 dict_scanline = summary_scanlines.main(data_parts)
