@@ -6,7 +6,8 @@ For illustration purposes, we show below four examples of outputs for HotFill wi
 
 ![](https://github.com/ecassiana/hotfill/blob/main/hotfillfig.jpg)
 
-# Video
+# Demonstration Video
+YouTube - [HotFill: A Cooling Time Constrained Filling Algorithm for Extrusion 3D Printing](https://youtu.be/DPu8NuOaLIc)
 
 # Installation (Linux)
 
