@@ -1,5 +1,4 @@
 # Implementation of module {move_example}
-# Last edited on 2021-03-21 09:54:08 by jstolfi
 
 import move_example
 import move

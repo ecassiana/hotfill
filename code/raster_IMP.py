@@ -1,5 +1,4 @@
 # Implementation of {raster}.
-# Last edited on 2021-11-25 11:33:14 by stolfi
 
 import raster
 import path

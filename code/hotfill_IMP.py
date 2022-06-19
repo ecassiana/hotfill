@@ -1,5 +1,4 @@
 # Implementation of the module {hotfill}.
-# Last edited on 2021-11-25 01:08:56 by stolfi
 
 import hotfill
 import bandpath

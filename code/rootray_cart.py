@@ -1,5 +1,4 @@
 # Tools for tracing straight rays through simple solids in Cartesian space {\RR^d}.
-# Last edited on 2021-09-29 01:53:49 by stolfi
 
 import rootray_cart_IMP
 import rootray

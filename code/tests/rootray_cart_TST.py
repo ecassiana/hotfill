@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {rootray_cart}
-# Last edited on 2021-09-29 02:10:26 by stolfi
 
 import rootray_cart
 import rootray

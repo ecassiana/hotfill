@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Implementation of module {paper_example_B}
-# Last edited on 2021-10-21 02:07:49 by stolfi
 
 import paper_example_B_IMP
 

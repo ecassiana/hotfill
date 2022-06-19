@@ -1,5 +1,4 @@
 # Reading slice elements from an RP3-generated text file.
-# Last edited on 2021-11-25 18:13:36 by stolfi
 
 import txt_read_IMP
 

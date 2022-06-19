@@ -1,6 +1,5 @@
 # /usr/bin/python3
 # Test program for module {path_example}
-# Last edited on 2021-10-27 02:07:11 by stolfi
 
 import path_example
 import move

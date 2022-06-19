@@ -1,5 +1,4 @@
 # Implementation of module {path_example}
-# Last edited on 2021-10-29 14:26:28 by stolfi
 
 import path_example
 import move

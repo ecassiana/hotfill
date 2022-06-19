@@ -1,6 +1,5 @@
 #! /bin/usr/python3
 # Test program for module {contact}
-# Last edited on 2021-11-05 02:49:07 by stolfi
 
 import contact
 import contact_example

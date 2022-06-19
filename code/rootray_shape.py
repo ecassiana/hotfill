@@ -1,5 +1,4 @@
 # Tools for ray-tracing csg models in arbitrary spaces with arbitrary probing trajectories.
-# Last edited on 2021-09-29 14:51:22 by stolfi
 
 import rootray_shape_IMP; from rootray_shape_IMP import RootRay_Shape_IMP
 

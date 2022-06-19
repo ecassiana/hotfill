@@ -1,5 +1,4 @@
 # Tools to handle colors as triples of floats.
-# Last edited on 2021-05-30 20:49:05 by jstolfi
 
 import color_IMP
 

@@ -1,5 +1,4 @@
 # Some input data sets for illustrations of the paper - variant "B".
-# Last edited on 2021-11-09 16:50:35 by stolfi
 
 import paper_figures_B_IMP
 

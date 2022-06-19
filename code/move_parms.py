@@ -1,5 +1,4 @@
 # Module to represent width and dynamic parameters of moves.
-# Last edited on 2021-10-17 11:40:38 by stolfi
 
 import move_parms_IMP; from move_parms_IMP import Move_Parms_IMP
 

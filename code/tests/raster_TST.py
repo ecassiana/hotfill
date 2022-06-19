@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {raster}
-# Last edited on 2021-11-25 11:37:40 by stolfi
 
 import raster
 import path

@@ -1,5 +1,4 @@
 # Implementation of the module {bandpath}.
-# Last edited on 2021-11-25 15:11:14 by stolfi
 
 import bandpath
 import path
@@ -353,8 +352,6 @@ def get_bandpath_elements_greedy(OPHS, SCS, z, mp_jump):
       if q_end_0 != None:
         assert q_end_1 != None # Since both paths must have the same length at this point.
         oph = OPHS[SCS[i0][j0]]
-        # Elis's criterion hard to understand. 
-        # Roll my own:
         oph_end_0 = BPHS0[-1]
         oph_end_1 = path.rev(BPHS1[-1])
         

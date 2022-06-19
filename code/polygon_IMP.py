@@ -1,5 +1,4 @@
 # Implementation of module {polygon}
-# Last edited on 2021-06-04 03:41:10 by jstolfi
 
 import polygon
 

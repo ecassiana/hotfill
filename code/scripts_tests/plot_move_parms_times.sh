@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-06-07 21:25:32 by jstolfi
 
 # Reads a data file produced by the test program of module {move_parms}
 # with tag "times", containing extrusion and jump times as function of distance.

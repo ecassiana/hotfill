@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for the module {move_parms}.
-# Last edited on 2021-10-17 11:43:02 by stolfi
 
 import move_parms
 import hacks

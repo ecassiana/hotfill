@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {hacks}
-# Last edited on 2021-10-29 03:07:30 by stolfi
 
 import hacks
 import color

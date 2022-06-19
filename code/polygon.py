@@ -1,5 +1,4 @@
 # Tools and types for representing the outline of a slice of the object.
-# Last edited on 2021-06-04 03:37:27 by jstolfi
 
 import polygon_IMP; from polygon_IMP import Polygon_IMP
 

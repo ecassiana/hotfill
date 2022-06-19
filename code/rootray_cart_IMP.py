@@ -1,5 +1,4 @@
 # Implementation of module {rootray_cart}.
-# Last edited on 2021-10-10 02:34:35 by stolfi
 
 import rootray
 import hacks

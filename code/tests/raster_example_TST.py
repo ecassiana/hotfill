@@ -1,6 +1,5 @@
 # /usr/bin/python3
 # Test program for module {raster_example}
-# Last edited on 2021-10-17 17:07:57 by stolfi
 
 import raster_example
 import move

@@ -1,5 +1,4 @@
 # Tools to create some example blocks.
-# Last edited on 2021-10-08 01:22:47 by stolfi
 
 import block_example_IMP
 

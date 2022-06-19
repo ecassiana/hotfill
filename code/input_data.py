@@ -1,5 +1,4 @@
 # Tools for plotting input datasets of the {HotPath} algorithm.
-# Last edited on 2021-11-09 16:48:53 by stolfi
 
 import input_data_IMP
 import path

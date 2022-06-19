@@ -1,5 +1,4 @@
 # Implementation of module {rootray_shape}
-# Last edited on 2021-10-10 03:15:25 by stolfi
 
 import rootray_shape
 import rootray_cart

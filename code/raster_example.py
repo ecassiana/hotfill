@@ -1,5 +1,4 @@
 # Some example sets of raster filling elements for tests and illustrations.
-# Last edited on 2021-10-12 19:03:36 by stolfi
 
 import raster_example_IMP
 

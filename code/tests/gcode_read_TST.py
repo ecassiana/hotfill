@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {gcode_read}
-# Last edited on 2021-10-14 12:13:40 by stolfi
 
 import gcode_read
 import path

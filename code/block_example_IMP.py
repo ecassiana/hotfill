@@ -1,5 +1,4 @@
 # Implementation of module {block_example}.
-# Last edited on 2021-11-09 16:52:15 by stolfi
 
 import block_example
 import path_example

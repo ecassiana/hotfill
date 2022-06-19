@@ -1,5 +1,4 @@
 #! /usr/bin/python3
-# Last edited on 2021-11-25 18:17:49 by stolfi
 
 import txt_write
 import txt_read
@@ -299,7 +298,7 @@ def test_write_from_read(partname, islice, angle, shift):
 
   sys.stderr.write("--- testing {write} from {txt_read.read} ---\n")
 
-  infolder = "tests/in/2021-05-15-elis/" + partname + "/"
+  infolder = "tests/in/" + partname + "/"
   sys.stderr.write("infolder = %s\n" % infolder)
   sys.stderr.write("partname =  %s\n" % partname)
   sys.stderr.write("islice =  %s\n" % islice)

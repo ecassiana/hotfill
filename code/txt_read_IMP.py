@@ -1,5 +1,4 @@
 # Implementation of the module {txt_read}.
-# Last edited on 2021-11-25 18:25:14 by stolfi
 
 import txt_read
 

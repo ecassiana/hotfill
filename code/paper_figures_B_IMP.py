@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Implementation of module {paper_figures_B}
-# Last edited on 2021-11-25 22:02:53 by stolfi
 
 import paper_figures_B
 import paper_example_B

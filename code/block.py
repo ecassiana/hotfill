@@ -1,5 +1,4 @@
 # Tools and types to handle blocks -- precomputed subpaths of a tool-path.
-# Last edited on 2021-10-29 14:20:22 by stolfi
 
 import block_IMP; from block_IMP import Block_IMP
 

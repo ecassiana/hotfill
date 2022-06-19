@@ -1,5 +1,4 @@
 # Main functions of the HotFill algorithm.
-# Last edited on 2021-11-25 01:16:15 by stolfi
 
 import hotfill_IMP
   

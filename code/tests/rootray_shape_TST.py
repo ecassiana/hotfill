@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {rootray_shape}
-# Last edited on 2021-10-22 22:30:46 by stolfi
 
 import rootray_shape
 import rootray

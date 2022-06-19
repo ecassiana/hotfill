@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-03-16 22:08:21 by jstolfi
 
 fname="$1"; shift   # File to search in.
 module="$1"; shift  # Module name.

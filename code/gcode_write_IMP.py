@@ -1,5 +1,4 @@
 # Implementation of the module {gcode_write}.
-# Last edited on 2021-03-21 13:22:40 by jstolfi
 
 import gcode_write
 import path

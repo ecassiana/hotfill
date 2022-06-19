@@ -1,5 +1,4 @@
 # Some example paths for tests and illustrations.
-# Last edited on 2021-10-29 14:23:20 by stolfi
 
 import path_example_IMP
 

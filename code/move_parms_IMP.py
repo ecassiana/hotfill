@@ -1,5 +1,4 @@
 # Implementation of module {move_parms}.
-# Last edited on 2021-10-17 11:41:13 by stolfi
 
 import move_parms
 import sys

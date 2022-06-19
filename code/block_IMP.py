@@ -1,5 +1,4 @@
 # Implementation of the module {block}.
-# Last edited on 2021-10-21 04:31:04 by stolfi
 
 import block
 import path

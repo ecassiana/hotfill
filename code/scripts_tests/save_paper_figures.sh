@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-11-09 01:27:22 by stolfi
 
 check_dir_tail.sh "2021-10-03-js"
 

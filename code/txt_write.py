@@ -1,5 +1,4 @@
 # Writing slice elements to an RP3-style text file.
-# Last edited on 2021-10-10 12:56:30 by stolfi
 
 import txt_write_IMP
 

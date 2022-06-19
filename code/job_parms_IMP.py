@@ -1,5 +1,4 @@
 # Implementaton of module {job_parms}.
-# Last edited on 2021-11-09 01:55:33 by stolfi
 
 import job_parms
 from math import sqrt, sin, cos, floor, ceil, inf, nan, pi
@@ -65,7 +64,7 @@ def typical_js():
   return parms
   # ----------------------------------------------------------------------
 
-def typical_elis():
+def typical():
   parms = {}
 
   # PRINTER PARAMETERS

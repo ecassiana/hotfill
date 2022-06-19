@@ -1,5 +1,4 @@
 # Bandpath construction for the HotFill algorithm.
-# Last edited on 2021-11-24 20:00:52 by stolfi
 
 import bandpath_IMP
   

@@ -1,6 +1,5 @@
 # /usr/bin/python3
 # Test program for module {paper_example_B}
-# Last edited on 2021-11-25 22:02:23 by stolfi
 
 import paper_example_B
 import move

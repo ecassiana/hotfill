@@ -1,5 +1,4 @@
 # Implementation of module {rootray}.
-# Last edited on 2021-02-18 22:24:13 by jstolfi
 
 import rn
 from math import hypot, inf

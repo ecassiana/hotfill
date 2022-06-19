@@ -1,5 +1,4 @@
 # Implementation of module {contact_example}
-# Last edited on 2021-10-31 05:30:41 by stolfi
 
 import contact_example
 import move

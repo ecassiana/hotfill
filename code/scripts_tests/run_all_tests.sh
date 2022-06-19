@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-10-05 13:45:02 by stolfi
 
 # Run tests on all modules, in a logical sequence.
 # Usage: {$0} [ -noshow ] { "all" | "bug" | "inc" | "gud" }

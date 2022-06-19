@@ -1,5 +1,4 @@
 # Implementation of module {color}.
-# Last edited on 2021-05-30 20:49:16 by jstolfi
 
 # import color
 import rn

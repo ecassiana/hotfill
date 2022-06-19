@@ -1,5 +1,4 @@
 # Implementation of module {hacks}.
-# Last edited on 2021-10-29 03:07:04 by stolfi
 
 import color
 import palette

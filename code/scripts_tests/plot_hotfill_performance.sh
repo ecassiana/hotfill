@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-11-28 00:50:58 by stolfi
 
 title="$1"; shift    # Plot title.
 rawfile="$1"; shift  # Name of input data file.

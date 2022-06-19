@@ -1,5 +1,4 @@
 #! /usr/bin/python3
-# Last edited on 2021-11-25 18:32:38 by stolfi
 
 import txt_read
 import job_parms
@@ -86,7 +85,7 @@ def test_read_chain_link_2():
   wd_link = 2.00; mp_link = move_parms.make(wd_link, ac, sp, 0.0)
 
   partname = "chain_link_2"
-  infolder = "tests/in/2021-05-15-elis/" + partname + "/"
+  infolder = "tests/in/" + partname + "/"
   islice = 2
   angle = pi/2
   shift = (0, 0)
@@ -107,7 +106,7 @@ def test_read_runleg():
   wd_link = 0.40; mp_link = move_parms.make(wd_link, ac, sp, 0.0)
 
   partname = "runleg"
-  infolder = "tests/in/2021-11-25-elis/"
+  infolder = "tests/in/"
   islice = 17
   angle = 0
   shift = (0, 0)

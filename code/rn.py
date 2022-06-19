@@ -1,5 +1,4 @@
 # Python3 procedures for linear algebra and Cartesian geometry.
-# Last edited on 2021-11-24 21:08:55 by stolfi
 
 MODULE_NAME = "rn"
 MODULE_DESC = "Linear algebra operations on numeric vectors"

@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {raster_regroup}.
-# Last edited on 2021-10-19 12:18:06 by stolfi
 
 import raster_regroup
 import block
@@ -20,7 +19,7 @@ import pyx
 import sys
 from math import sqrt, sin, cos, floor, ceil, inf, nan, pi
 
-parms = job_parms.typical_elis()
+parms = job_parms.typical()
 parms['solid_raster_width'] = 1.0 
 job_parms.write(sys.stderr, None, parms, None)
 

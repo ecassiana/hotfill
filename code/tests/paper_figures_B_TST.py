@@ -1,6 +1,5 @@
 # /usr/bin/python3
 # Test program for module {paper_figures_B}
-# Last edited on 2021-11-25 22:10:50 by stolfi
 
 import paper_figures_B
 import paper_example_B

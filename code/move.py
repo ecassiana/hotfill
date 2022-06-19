@@ -1,5 +1,4 @@
 # Types and tools to handle moves (traces or jumps).
-# Last edited on 2021-10-31 05:06:50 by stolfi
 
 import move_IMP; from move_IMP import Move_IMP
 import move_parms

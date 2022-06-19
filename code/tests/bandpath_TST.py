@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {bandpath}
-# Last edited on 2021-11-25 12:37:20 by stolfi
 
 import bandpath
 import paper_example_B

@@ -1,5 +1,4 @@
 # Procedure to create examples of moves.
-# Last edited on 2021-05-14 14:40:44 by jstolfi
 
 import move_example_IMP
 import move_parms

@@ -1,5 +1,4 @@
 # Implementation of module {contact}
-# Last edited on 2021-11-06 09:23:01 by stolfi
 
 import contact
 import move

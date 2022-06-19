@@ -1,5 +1,4 @@
 # Tools to generate color palettes and color sets for plots etc..
-# Last edited on 2021-10-01 21:58:45 by stolfi
 
 import color
 import palette_IMP

@@ -1,5 +1,4 @@
 # Procedures to group ratser filling elements in various ways.
-# Last edited on 2021-10-15 20:05:48 by stolfi
 
 import raster_regroup_IMP
 

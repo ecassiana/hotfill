@@ -1,5 +1,4 @@
 # Implementation of module {raster_example}
-# Last edited on 2021-10-15 04:14:07 by stolfi
 
 import raster_example
 import move

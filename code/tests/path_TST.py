@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {path}
-# Last edited on 2021-11-25 22:01:16 by stolfi
 
 import path
 import path_example

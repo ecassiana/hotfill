@@ -1,5 +1,4 @@
 # Implementation of module {move}
-# Last edited on 2021-11-09 16:51:31 by stolfi
 
 import move
 import move_parms

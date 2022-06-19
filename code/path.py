@@ -1,5 +1,4 @@
 # Tools for handling tool-paths.
-# Last edited on 2021-11-09 13:59:25 by stolfi
 
 import path_IMP; from path_IMP import Path_IMP
 import move

@@ -1,6 +1,5 @@
 #! /usr/bin/python -t
 # _*_ coding: iso-8859-1 _*_
-# Last edited on 2021-09-29 12:32:44 by stolfi
 
 MODULE_NAME = "rmxn"
 MODULE_DESC = "Linear algebra operations on rectangular numeric matrices"

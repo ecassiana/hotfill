@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {move}
-# Last edited on 2021-11-06 23:38:36 by stolfi
 
 import move
 import move_example

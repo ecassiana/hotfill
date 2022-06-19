@@ -1,5 +1,7 @@
 #! /bin/bash
+
 datadir=tests/results
+
   for m in 15; do 
     ./plot_hotfill_performance.sh \
       "max band width ${m}" \

@@ -1,5 +1,4 @@
 # Implementation of the module {txt_write}.
-# Last edited on 2021-10-30 11:48:09 by stolfi
 
 import txt_write
 

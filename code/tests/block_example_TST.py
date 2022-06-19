@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {block_example}.
-# Last edited on 2021-10-16 04:00:13 by stolfi
 
 import block_example
 import block

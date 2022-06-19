@@ -1,5 +1,4 @@
 # Implementation of module {palette}.
-# Last edited on 2021-10-16 04:32:31 by stolfi
 
 import palette
 import color

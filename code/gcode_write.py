@@ -1,5 +1,4 @@
 # Tools to generate G-code files from tool-paths.
-# Last edited on 2021-10-03 21:35:02 by stolfi
 
 import gcode_write_IMP
 import path

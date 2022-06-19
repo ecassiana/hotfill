@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {hotfill}
-# Last edited on 2021-11-25 18:41:47 by stolfi
 
 import hotfill
 import paper_example_B
@@ -226,7 +225,7 @@ def test_runleg(angle, Delta, maxband, quick):
   tag_mbq = "mb%03d_q%d" % (maxband, int(quick))
   tag = "%s_slc%03d_ang%03d_D%06.0f_%s" % (partname, angle, islice, 1000*Delta, tag_mbq)
 
-  infolder = "tests/in/2021-11-25-elis/"
+  infolder = "tests/in/"
 
   fname_in = infolder + partname + ("_%03d" % islice) + ".txt"
   rd = open(fname_in, 'r')

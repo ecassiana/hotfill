@@ -1,5 +1,4 @@
 # Implementation of module {raster_regroup}
-# Last edited on 2021-11-09 02:27:31 by stolfi
 
 import block
 import path

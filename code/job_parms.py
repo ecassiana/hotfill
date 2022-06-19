@@ -1,5 +1,4 @@
 # Tools to create printer/job parameter tables.
-# Last edited on 2021-11-09 01:54:10 by stolfi
 
 import job_parms_IMP
 
@@ -14,9 +13,9 @@ def typical_js():
   # Return a parameter table with typical values for testing (JS version).
   return job_parms_IMP.typical_js()
 
-def typical_elis():
-  # Return a parameter table with typical values for testing (Elis version).
-  return job_parms_IMP.typical_elis()
+def typical():
+  # Return a parameter table with typical values for testing.
+  return job_parms_IMP.typical()
 
 def typical_paper():
   # Return a parameter table with typical values for testing (Paper version).

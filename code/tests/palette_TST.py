@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {palette}
-# Last edited on 2021-10-22 22:30:05 by stolfi
 
 import palette
 import color

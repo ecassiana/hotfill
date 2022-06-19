@@ -1,5 +1,4 @@
 # Tools and types for representing contacts between traces.
-# Last edited on 2021-11-06 09:32:23 by stolfi
 
 import contact_IMP; from contact_IMP import Contact_IMP
 import move

@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for module {gcode_write}
-# Last edited on 2021-05-30 23:08:29 by jstolfi
 
 import gcode_write
 import path

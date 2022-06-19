@@ -1,5 +1,4 @@
 # Implementation of module {path}
-# Last edited on 2021-11-09 16:50:52 by stolfi
 
 import path
 import move

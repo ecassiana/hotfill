@@ -1,5 +1,4 @@
 #! /usr/bin/python3
-# Last edited on 2021-10-10 02:53:32 by stolfi
 
 import polygon
 import path

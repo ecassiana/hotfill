@@ -1,6 +1,4 @@
-
 # Implementation of {input_data}.
-# Last edited on 2021-10-29 17:27:25 by stolfi
 
 import pyx
 import raster

@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for the module {rootray}
-# Last edited on 2021-10-03 18:35:45 by stolfi
 
 import rootray
 from math import inf

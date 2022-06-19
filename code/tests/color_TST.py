@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 # Test program for the {color} module.
-# Last edited on 2021-05-31 07:14:39 by jstolfi
 
 import color
 import rn

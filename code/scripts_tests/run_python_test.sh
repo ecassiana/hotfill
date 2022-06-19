@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-10-26 22:22:19 by stolfi
 
 # Usage: "run_python_test.sh [ -noshow ] {MODULE}..."
 # Runs "tests/{MODULE}_TST.py" with the proper {PYTHONPATH},

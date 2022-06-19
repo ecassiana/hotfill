@@ -1,5 +1,4 @@
 # Miscellaneous utility functions for HotFill/HotPath.
-# Last edited on 2021-11-09 16:48:21 by stolfi
 
 import color
 import hacks_IMP

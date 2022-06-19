@@ -1,5 +1,4 @@
 # Procedures for creating examples of contacts between paths.
-# Last edited on 2021-11-09 16:47:58 by stolfi
 
 import contact_example_IMP
 import move

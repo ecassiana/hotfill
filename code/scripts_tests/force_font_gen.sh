@@ -1,5 +1,4 @@
 #! /bin/bash
-# Last edited on 2021-10-16 03:03:36 by stolfi
 
 # Runs {LaTex} on an internal document in order to force the
 # creation of PK files for small versions of the default fonts, 

@@ -1,5 +1,4 @@
 # Tools for raster fillings.
-# Last edited on 2021-11-25 09:40:24 by stolfi
 
 import raster_IMP
 import path
